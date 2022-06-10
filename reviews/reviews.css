@@ -1,0 +1,42 @@
+.header__reviews a {
+    border-bottom: 2px solid black;
+}
+
+.reviews__items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    row-gap: 20px;
+
+    margin-top: 70px;
+
+    padding-bottom: 70px;
+}
+
+.rewiew__item {
+    width: 100%;
+    height: 100%;
+    background-color: #6A655D;
+}
+
+.rewiew__item img {
+    float: left;
+    border-radius: 100%;
+
+    padding: 20px;
+}
+
+.rewiev__item-text {
+    padding: 20px 10px 0px 0px;
+    color: #FFFFFF;
+}
+
+.rewiev__item-name {
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+
+
+
+

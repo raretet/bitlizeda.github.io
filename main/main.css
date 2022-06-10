@@ -1,0 +1,126 @@
+.main-goods__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 30px;
+    padding-top: 70px;
+    
+}
+
+.main-goods__item {
+    background-color: black; 
+    color: #FFFFFF;
+    text-align: center;
+
+    background-image: url(https://s3-alpha-sig.figma.com/img/5785/c762/d1c3235112ec118c5ec94e4e37357d3d?Expires=1655683200&Signature=BzSBDOh6M1qjZaSiYXWeXzOQ~9VZKgQMiBl79Ipe2iVrojWz5SndJuEKd1eqLS4W1H7oBms3pZsZYA4x6uNeu-WdHKJPjDBxgbbSTIY5wwAN0XBbpOKP9Nw6sM5Fz63b3edyojVi6TuRuPU7KA~h4Rc6xp5jDAGqjNHlxMCe0S1XhxlBUis6P-WA-wVgwDG6zFItUpGyRfu70iRM~hofKBXUcbu4Mha-qx2LDY4l7ASIeQJOycTDVm1sRIiijPO3UHZN0c83vc15t~iFlUU-wZUS2NM4XvOhxWjmIjpQ6zI2fusBw-GoyhCGt4hI2DI~6jCs3G76NLyvn6f7ADzTew__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size: cover;
+}
+
+.goods__item-title {
+    padding-top: 20px;
+}
+
+/* .goods__item-text {
+
+} */
+
+.goods__item-img img {
+  max-width: 150px;
+  max-height: 150px;
+
+}
+
+.goods__item-price {
+    padding-bottom: 20px;
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    padding-top: 50px
+}
+
+
+/* Preview */
+
+.goods-preview {
+    position: fixed;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 99;
+}
+
+.preview {
+    display: none;
+    position: relative;
+}
+
+.preview-close {
+    position: absolute;
+    left: 650px;
+}
+
+.active {
+    display: inline-block;
+    background:#FFFFFF;
+    padding: 20px;
+}
+
+.goods-preview-title {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 22px;
+}
+
+.goods-preview-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 5px;
+
+    max-width: 350px;
+    margin: 0 auto
+}
+
+.goods-preview-images img {
+    width: 150px;
+    height: 150px;
+    transition: .2s;
+}
+
+.goods-preview-images img:hover {
+    transform: scale(2, 2);
+}
+
+.goods-preview-price {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 0px;
+}
+
+.goods-preview-features {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.goods-preview-feature {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+
+    border: 1px solid;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px
+}
+
+

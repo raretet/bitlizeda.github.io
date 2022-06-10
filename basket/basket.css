@@ -1,0 +1,42 @@
+.basket__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    row-gap: 30px;
+}
+
+.basket__items {
+    padding-top: 70px;
+}
+
+.basket__item {
+    text-align: center;
+    background-color: #D9D9D9;
+
+    max-width: 250px;
+}
+
+.basket-item__img img {
+    max-height: 150px;
+}
+
+.basket-item__img {
+    padding-top: 30px;
+}
+
+.bastet-item__btn button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    background-color:#EDB021;
+}
+
+.bastet-item__btn {
+    padding-bottom: 25px;
+}
+
+.basket-item__title {
+    padding: 30px 0px;
+}

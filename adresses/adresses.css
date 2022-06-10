@@ -1,0 +1,17 @@
+.header__adresses a {
+    border-bottom: 2px solid black;
+}
+
+.adresses__items {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr*6;
+    row-gap: 20px;
+
+    padding-top: 70px;
+}
+
+.adresses__item {
+    border: 1px solid;
+    padding: 10px 0px 10px 15px;
+}

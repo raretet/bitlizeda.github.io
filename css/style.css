@@ -1,0 +1,143 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.header {
+    background-color: #EFEFEF;
+    border: 1px solid black;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.header__item a {
+    text-decoration: none;
+    
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 86px;
+
+    color: #000000;
+}
+
+.header__logo a {
+    font-size: 36px;
+}
+
+.header__basket {
+    padding-top: 10px;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    margin-top: 100px;
+}
+
+.footer__bottom-text {
+    text-align: center;
+    padding: 15px 0px;
+    border: 1px solid black;
+}
+
+.footer__info {
+    border: 1px solid black;
+    border-bottom: none;
+
+}
+
+.footer__info-items {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.footer__item {
+    padding: 40px 0px 30px 0px ;
+}
+
+.footer__item-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #444444;
+}
+
+.footer__item-list li {
+    padding-top: 30px;
+}
+
+.social-nets {
+    padding-top: 10px;
+}
+
+.title {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 100px;
+
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1.5px;
+    background-color: black;
+
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1.5px;
+    background-color: black;
+
+    position: absolute;
+    bottom: 10px;
+    right: 400px;
+}
+
+
+
