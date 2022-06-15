@@ -13,7 +13,7 @@ if (localStorage.getItem('as1') != null) {
                  <div class="basket__item">
                  <div class="basket-item__img">
                    <img
-                     src="/img/as1.png"
+                     src="../img/as1.png"
                      alt=""
                    />
                  </div>
@@ -41,7 +41,7 @@ if (localStorage.getItem('as2') != null) {
                  <div class="basket__item">
                  <div class="basket-item__img">
                    <img
-                     src="/img/as2.png"
+                     src="../img/as2.png"
                      alt=""
                    />
                  </div>
@@ -69,7 +69,7 @@ if (localStorage.getItem('as3') != null) {
                  <div class="basket__item">
                  <div class="basket-item__img">
                    <img
-                     src="/img/as3.png"
+                     src="../img/as3.png"
                      alt=""
                    />
                  </div>
@@ -97,7 +97,7 @@ if (localStorage.getItem('as4') != null) {
                  <div class="basket__item">
                  <div class="basket-item__img">
                    <img
-                     src="/img/as4.png"
+                     src="../img/as4.png"
                      alt=""
                    />
                  </div>
@@ -125,7 +125,7 @@ if (localStorage.getItem('as5') != null) {
                  <div class="basket__item">
                  <div class="basket-item__img">
                    <img
-                     src="/img/as5.png"
+                     src="../img/as5.png"
                      alt=""
                    />
                  </div>
@@ -152,7 +152,7 @@ if (localStorage.getItem('as6') != null) {
                  <div class="basket__item">
                  <div class="basket-item__img">
                    <img
-                     src="/img/as6.png"
+                     src="../img/as6.png"
                      alt=""
                    />
                  </div>
