@@ -40,3 +40,10 @@
 
 
 
+.rewiev__item-img img {
+    max-width: 150px;
+}
+
+.rewiew__item-content {
+    padding-bottom: 10px;
+}
